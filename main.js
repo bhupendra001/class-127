@@ -10,6 +10,7 @@ function preload(){
 }
 
 function draw(){
+ background("white");
  
 document.getElementById("square_size").innerHTML = "width and height of a square will be = " + difference + " px";   
 fill("cyan");   
